@@ -1,0 +1,42 @@
+
+
+.where-togo {
+    background-color: Black;
+    color: white;
+    padding: 30px 30px 30px 15px;
+}
+
+.where-togo > h2 {
+    font-weight: normal;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.where-togo > form > input{
+    color: grey;
+    background-color: black;
+    border: solid 0.5px;
+    padding: 5px;
+    width: 250px;
+    height: 30px;
+}
+
+.where-togo > form > select {
+    color: grey;
+    background-color: black;
+    border: solid 0.5px;
+    padding: 5px;
+    width: 250px;
+    height: 41px;
+}
+
+#search-button {
+    height: 48px;
+    width: 125px;
+    background-color: rgb(255, 0, 98);
+    color: white;
+    border: transparent;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 10px;
+}

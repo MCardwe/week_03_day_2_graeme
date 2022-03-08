@@ -1,0 +1,49 @@
+.favourite-bg-1 {
+    background-image: url(../img/favourites/indonesia.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .favourite-bg-2 {
+    background-image: url(../img/favourites/australia.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .favourite-bg-3 {
+    background-image: url(../img/favourites/switzerland.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .favourite {
+    display: flex;
+  }
+
+  .favourite-place {
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    flex: 20%;
+    color: white;
+  }
+
+  .favourite-place > h2 {
+    font-size: 40px;
+    margin-top: 25px;
+    margin-left: 20px;
+    font-family: "Caveat", sans-serif;
+  }
+  .favourite-place > p {
+    margin-top: 25px;
+    margin-left: 20px;
+  }
+
+  .favourite-place > button {
+    margin-top: 25px;
+    margin-left: 20px;
+    background-color: rgb(8, 197, 8);
+    color: white;
+    border-color: transparent;
+    padding: 0%;
+  }
